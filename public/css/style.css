@@ -1,0 +1,79 @@
+* {
+    text-decoration: none;
+}
+.doctors {
+    text-align: center;
+    margin-top: 20px;
+}
+.appointments{
+    display: flex;
+    justify-content: space-around;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand-logo img {
+    margin: 10px;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+}
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.book-appointment {
+    background-color: #f0f8ff; /* Light cyan background */
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.book-appointment h2 {
+    text-align: center;
+    color: #2a4d76; /* Dark blue for the heading */
+}
+.book-appointment p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+.btn-primary {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #4caf50; /*Green background for the button*/
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.intro-section {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+.intro-section h2 {
+    text-align: center;
+    color: #2a4d76; /* Dark blue for the heading */
+}
+.intro-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
