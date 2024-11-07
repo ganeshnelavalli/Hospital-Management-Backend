@@ -3,9 +3,10 @@ const { my_model, appointments, contact } = require("./mongo")
 const path = require("path");
 const { log } = require("console");
 let server = e()
+let port = process.env.PORT||3535
 server.use(e.static(path.join(__dirname, 'public')));
 server.use(e.urlencoded({ extended: true }));
-server.listen(3535, ()=>{
+server.listen(port, ()=>{
     console.log("Server listening at 3535");
 })
 server.get("/", async(req, res)=>{
