@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 main().catch(err => console.log(err))
 
 async function main(){
-    await mongoose.connect('mongodb://localhost:27017/Hospital_db')
+    await mongoose.connect('mongodb+srv://ganeshbasava717:IUdmJwUL1dWFxp6S@cluster0.w6pdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 }
 
 const my_Schema = mongoose.Schema({
